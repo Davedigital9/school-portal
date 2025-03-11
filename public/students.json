@@ -1,0 +1,98 @@
+[
+    {
+      "name": "John Doe",
+      "email": "john.doe@tofeeacademy.com",
+      "phone": "123-456-7890",
+      "grade": "10",
+      "emergencyContactName": "Jane Doe",
+      "emergencyContactPhone": "098-765-4321"
+    },
+    {
+      "name": "Alice Smith",
+      "email": "alice.smith@tofeeacademy.com",
+      "phone": "234-567-8901",
+      "grade": "11",
+      "emergencyContactName": "Bob Smith",
+      "emergencyContactPhone": "987-654-3210"
+    },
+    {
+      "name": "Emma Johnson",
+      "email": "emma.johnson@tofeeacademy.com",
+      "phone": "345-678-9012",
+      "grade": "12",
+      "emergencyContactName": "David Johnson",
+      "emergencyContactPhone": "876-543-2109"
+    },
+    {
+      "name": "Oliver Brown",
+      "email": "oliver.brown@tofeeacademy.com",
+      "phone": "456-789-0123",
+      "grade": "9",
+      "emergencyContactName": "Sophia Brown",
+      "emergencyContactPhone": "765-432-1098"
+    },
+    {
+      "name": "Mia Davis",
+      "email": "mia.davis@tofeeacademy.com",
+      "phone": "567-890-1234",
+      "grade": "10",
+      "emergencyContactName": "Liam Davis",
+      "emergencyContactPhone": "654-321-0987"
+    },
+    {
+      "name": "Lucas Martinez",
+      "email": "lucas.martinez@tofeeacademy.com",
+      "phone": "678-901-2345",
+      "grade": "11",
+      "emergencyContactName": "Isabella Martinez",
+      "emergencyContactPhone": "543-210-9876"
+    },
+    {
+      "name": "Zoe Wilson",
+      "email": "zoe.wilson@tofeeacademy.com",
+      "phone": "789-012-3456",
+      "grade": "12",
+      "emergencyContactName": "Ethan Wilson",
+      "emergencyContactPhone": "432-109-8765"
+    },
+    {
+      "name": "Jack Taylor",
+      "email": "jack.taylor@tofeeacademy.com",
+      "phone": "890-123-4567",
+      "grade": "9",
+      "emergencyContactName": "Ava Taylor",
+      "emergencyContactPhone": "321-098-7654"
+    },
+    {
+      "name": "Lily Moore",
+      "email": "lily.moore@tofeeacademy.com",
+      "phone": "901-234-5678",
+      "grade": "10",
+      "emergencyContactName": "Mason Moore",
+      "emergencyContactPhone": "210-987-6543"
+    },
+    {
+      "name": "Ethan Jackson",
+      "email": "ethan.jackson@tofeeacademy.com",
+      "phone": "012-345-6789",
+      "grade": "11",
+      "emergencyContactName": "Chloe Jackson",
+      "emergencyContactPhone": "109-876-5432"
+    },
+    {
+      "name": "Avery White",
+      "email": "avery.white@tofeeacademy.com",
+      "phone": "123-456-7891",
+      "grade": "12",
+      "emergencyContactName": "James White",
+      "emergencyContactPhone": "098-765-4322"
+    },
+    {
+      "name": "Henry Harris",
+      "email": "henry.harris@tofeeacademy.com",
+      "phone": "234-567-8902",
+      "grade": "9",
+      "emergencyContactName": "Emily Harris",
+      "emergencyContactPhone": "987-654-3211"
+    }
+]
