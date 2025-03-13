@@ -2,10 +2,11 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import TeacherSignIn from "./pages/TeacherSignIn";
-import StudentList from "./components/StudentList";
+/*import StudentList from "./components/StudentList";*/
 import EditStudent from "./components/EditStudent";
 import ProtectedRoute from "./components/ProtectRoute";
 import "./App.css";
+import StudentList from "./components/studentList";
 
 export default function App() {
   return (

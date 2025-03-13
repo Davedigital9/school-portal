@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./studentList.css";
 
-export default function StudentList() {
+function StudentList() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
@@ -50,3 +50,5 @@ export default function StudentList() {
     </div>
   );
 }
+
+export default StudentList;
