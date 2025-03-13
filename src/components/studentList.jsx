@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./studentList.css";
 
 export default function StudentList() {
@@ -27,6 +28,7 @@ export default function StudentList() {
             <th>Grade</th>
             <th>Emergency Contact Name</th>
             <th>Emergency Contact Phone</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -38,6 +40,9 @@ export default function StudentList() {
               <td>{student.grade}</td>
               <td>{student.emergencyContactName}</td>
               <td>{student.emergencyContactPhone}</td>
+              <td>
+                <Link to={`/secure/edit/${index}`}>Edit</Link>
+              </td>
             </tr>
           ))}
         </tbody>

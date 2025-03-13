@@ -27,7 +27,7 @@ export default function TeacherSignIn() {
       <h1>Teacher Sign In</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Username:</label>
+          <label className="log">Username:</label>
           <input
             type="text"
             value={username}
@@ -36,7 +36,7 @@ export default function TeacherSignIn() {
           />
         </div>
         <div>
-          <label>Password:</label>
+          <label className="log">Password:</label>
           <input
             type="password"
             value={password}

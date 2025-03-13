@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./StudentForm.css";
 
 export default function StudentForm() {
   const [name, setName] = useState("");
@@ -26,7 +27,7 @@ export default function StudentForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div className="form-container">
         <label>Name:</label>
         <input
           type="text"
@@ -35,7 +36,7 @@ export default function StudentForm() {
           required
         />
       </div>
-      <div>
+      <div className="form-container">
         <label>Email:</label>
         <input
           type="email"
@@ -45,7 +46,7 @@ export default function StudentForm() {
         />
         {emailError && <p style={{ color: "red" }}>{emailError}</p>}
       </div>
-      <div>
+      <div className="form-container">
         <label>Phone:</label>
         <input
           type="text"
@@ -54,7 +55,7 @@ export default function StudentForm() {
           required
         />
       </div>
-      <div>
+      <div className="form-container">
         <label>Grade:</label>
         <input
           type="text"
@@ -63,7 +64,7 @@ export default function StudentForm() {
           required
         />
       </div>
-      <div>
+      <div className="form-container">
         <label>Emergency Contact Name:</label>
         <input
           type="text"
@@ -72,7 +73,7 @@ export default function StudentForm() {
           required
         />
       </div>
-      <div>
+      <div className="form-container">
         <label>Emergency Contact Phone:</label>
         <input
           type="text"
