@@ -5,16 +5,20 @@ import "./TeacherSignIn.css";
 export default function TeacherSignIn() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simple authentication logic (replace with real authentication)
-    if (username === "teacher" && password === "password") {
+    // Specific login credentials
+    const validUsername = "johla01";
+    const validPassword = "password123";
+
+    if (username === validUsername && password === validPassword) {
       localStorage.setItem("isAuthenticated", "true");
       navigate("/secure");
     } else {
-      alert("Invalid credentials");
+      setError("Invalid credentials. Please try again.");
     }
   };
 
@@ -40,6 +44,7 @@ export default function TeacherSignIn() {
             required
           />
         </div>
+        {error && <p style={{ color: "red" }}>{error}</p>}
         <button type="submit">Sign In</button>
       </form>
     </div>
