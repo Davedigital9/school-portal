@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./StudentForm.css";
+import "./studentForm.css";
 
 export default function StudentForm() {
   const [name, setName] = useState("");
