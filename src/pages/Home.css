@@ -1,0 +1,14 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .school-image {
+    max-width: 100%;
+    height: auto;
+  }

@@ -14,11 +14,13 @@
 }
 
 body {
-  background: radial-gradient(circle at 50% 50%, #0d292f, #4079db);
+  background: radial-gradient(circle at 50% 50%, #F0E6D2, #efceb2);
   background-size: 200% 200%;
   animation: wave 10s infinite linear;
 }
-
+/*#6B7F47*/
+/*#F0E6D2*/
+/*#efceb2*/
 @keyframes wave {
   0% {
     background-position: 0% 50%;

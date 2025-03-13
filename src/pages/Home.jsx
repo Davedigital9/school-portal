@@ -1,11 +1,13 @@
 import React from "react";
-import StudentList from "../components/studentList";
+import logo from "../assets/Tofee_Academy.png";
+import school from "../assets/academy.jpg";
+import "./Home.css";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Tofee Academy Portal</h1>
-      <StudentList />
+    <div className="home-container">
+      <img src={logo} alt="School Logo" className="logo" />
+      <img src={school} alt="School" className="school-image" />
     </div>
   );
 }
